@@ -100,6 +100,15 @@ config SENSORS_ISL68137
 	  This driver can also be built as a module. If so, the module will
 	  be called isl68137.
 
+config SENSORS_ISL692XX
+        tristate "Renesas 2nd Gen Digital Multiphase"
+        help
+          If you say yes here you get hardware monitoring support for Renesas
+          2nd Generation Digital Multiphase power regulators.
+
+          This driver can also be built as a module. If so, the module will
+          be called isl692xx.
+
 config SENSORS_LM25066
 	tristate "National Semiconductor LM25066 and compatibles"
 	help
